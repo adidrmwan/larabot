@@ -112,17 +112,16 @@
                         </ul>
                         <div class="button-group flex-column flex-sm-row align-items-start align-items-sm-center">
                             <a href="/create" class="btn mb-3 mb-sm-0">
-                                <img src="assets/img/icons/bid.svg" alt="" class="svg">
+                                <img src="assets/img/icons/create-icon.svg" alt="" class="svg">
                                 CREATE
                             </a>
                         
                         </div>
                         <h3 style="color: #fff; margin-top:3%">Try our Trained Backroom Model!</h3>
                         <div class="button-group" style="margin-top:3%;">
-                            <a href="#" class="btn-circle love-react mr-10"></a>
-
                             <div class="dropdown mr-10">
-                                <a href="/app" class="btn btn-sm">
+                                <a href="/app" class="btn mb-3 mb-sm-0">
+                                <img src="assets/img/icons/dot.svg" alt="" class="svg">
                                     APP
                                 </a>
                             </div>
