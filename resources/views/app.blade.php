@@ -8,11 +8,12 @@
 </style>
 
 <!-- You can remove this -->
-<meta name="facebook-domain-verification" content="mlk59ybu44651lzcbhhxjfl8vfae8q" /></head><body><div class="div-block-2"><a href="/" aria-current="page" class="link-block-44 w-inline-block w--current"><div class="text-block-124" style="color: #fff">KORA</div></a></div><div class="div-block-2-copy"><a href="/add-to-the-backrooms" class="button-10 w-button">Add to the Backrooms</a></div><div class="code-embed-7 w-embed w-script"><!DOCTYPE html>
+<meta name="facebook-domain-verification" content="mlk59ybu44651lzcbhhxjfl8vfae8q" /></head><body><div class="div-block-2"><a href="/" aria-current="page" class="link-block-44 w-inline-block w--current"><div class="text-block-124" style="color: #fff; font-family: "Lexend", sans-serif;">KORA</div></a></div><div class="div-block-2-copy"><a href="/add_backrooms" class="button-10 w-button">Add to the Backrooms</a></div><div class="code-embed-7 w-embed w-script"><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@500;600;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     
     <style>
         body {
@@ -32,6 +33,7 @@
     /* align-items: center; */
     min-height: 100%;
     margin: 0;
+    font-family: "Lexend", sans-serif;
         }
 
         .container {

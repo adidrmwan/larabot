@@ -34,6 +34,11 @@ class PageController extends Controller
         return view('app');
     }
 
+    public function index_add_backrooms()
+    {
+        return view('add-backrooms');
+    }
+
     /**
      * Show the form for creating a new resource.
      */

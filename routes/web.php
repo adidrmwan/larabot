@@ -21,3 +21,4 @@ Route::get('/', function () {
 Route::get('/app', [PageController::class, 'index_app'])->name('app');
 Route::get('/create', [PageController::class, 'index_create'])->name('create');
 Route::get('/subscription', [PageController::class, 'index_subs'])->name('subscription');
+Route::get('/add_backrooms', [PageController::class, 'index_add_backrooms'])->name('add_backrooms');
