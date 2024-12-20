@@ -260,22 +260,22 @@ Sentinel redefines Solana validator operations by merging AI-driven intelligence
     </div>
     
 
-    <script src="{{ URL::asset('assets/js/jquery.min.js') }}"></script>
-    <script src="{{ URL::asset('assets/js/bootstrap.bundle.min.js') }}"></script>
-    <script src="{{ URL::asset('assets/plugins/particles/particles.min.js') }}"></script>
-    <script src="{{ URL::asset('assets/js/menu.min.js') }}"></script>
+    <script type="text/babel" src="{{ URL::asset('assets/js/jquery.min.js') }}"></script>
+    <script type="text/babel" src="{{ URL::asset('assets/js/bootstrap.bundle.min.js') }}"></script>
+    <script type="text/babel" src="{{ URL::asset('assets/plugins/particles/particles.min.js') }}"></script>
+    <script type="text/babel" src="{{ URL::asset('assets/js/menu.min.js') }}"></script>
 
-    <script src="{{ URL::asset('assets/plugins/swiper/swiper-bundle.min.js') }}"></script>
-    <script src="{{ URL::asset('assets/plugins/magnific-popup/jquery.magnific-popup.min.js') }}"></script>
-    <script src="{{ URL::asset('assets/plugins/countdown/countdown.min.js') }}"></script>
-    <script src="{{ URL::asset('assets/plugins/nice-select/jquery.nice-select.min.js') }}"></script>
+    <script type="text/babel" src="{{ URL::asset('assets/plugins/swiper/swiper-bundle.min.js') }}"></script>
+    <script type="text/babel" src="{{ URL::asset('assets/plugins/magnific-popup/jquery.magnific-popup.min.js') }}"></script>
+    <script type="text/babel" src="{{ URL::asset('assets/plugins/countdown/countdown.min.js') }}"></script>
+    <script type="text/babel" src="{{ URL::asset('assets/plugins/nice-select/jquery.nice-select.min.js') }}"></script>
 
-    <script src="{{ URL::asset('assets/plugins/Isotope/isotope.pkgd.js') }}"></script>
-    <script src="{{ URL::asset('assets/plugins/counterup/waypoints.min.js') }}"></script>
-    <script src="{{ URL::asset('assets/plugins/counterup/jquery.counterup.min.js') }}"></script>
-    <script src="{{ URL::asset('assets/js/main.js') }}"></script>
+    <script type="text/babel" src="{{ URL::asset('assets/plugins/Isotope/isotope.pkgd.js') }}"></script>
+    <script type="text/babel" src="{{ URL::asset('assets/plugins/counterup/waypoints.min.js') }}"></script>
+    <script type="text/babel" src="{{ URL::asset('assets/plugins/counterup/jquery.counterup.min.js') }}"></script>
+    <script type="text/babel" src="{{ URL::asset('assets/js/main.js') }}"></script>
 
-    <script src="{{ URL::asset('assets/js/custom.js') }}"></script>
+    <script type="text/babel" src="{{ URL::asset('assets/js/custom.js') }}"></script>
 </body>
 
 </html>
