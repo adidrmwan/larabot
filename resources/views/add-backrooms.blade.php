@@ -183,7 +183,7 @@
             set(newRef, data)
                 .then(() => {
                     // Automatically redirect instead of showing an alert
-                    window.location.href = 'https://placeholder.com'; // Replace with your desired URL
+                    window.location.href = '/app'; // Replace with your desired URL
                     form.reset();  // Reset form fields after successful submission
                 })
                 .catch((error) => {
