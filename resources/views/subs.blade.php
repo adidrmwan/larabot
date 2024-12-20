@@ -41,8 +41,7 @@
                             <div class="d-flex align-items-center">
                                 <div class="logo">
                                     <a href="/">
-                                        <img src="assets/img/logo.png" class="main-logo" alt="">
-                                        <img src="assets/img/logo.png" class="sticky-logo" alt="">
+                                    <h3 style="color: #fff">K O R A</h3>
                                     </a>
                                 </div>
                             </div>
@@ -61,6 +60,7 @@
                                         <li>
                                             <a href="/subscription">subscription</a>
                                         </li>
+                                        
                                     </ul>
                                     
                                 </div>
