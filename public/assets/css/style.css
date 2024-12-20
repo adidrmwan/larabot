@@ -1073,7 +1073,7 @@ table thead th, .nice-select .option, .widget.widget_recent_entries ul li .post-
 .single-product .product-content, .widget.widget_about, .banner-img-content:after, .upload-btn {
   background: rgba(64, 64, 64, 0.9);
   background: -o-linear-gradient(45deg, rgba(64, 64, 64, 0.9) 0%, rgba(151, 151, 151, 0.9) 100%);
-  background: linear-gradient(45deg, rgba(151, 151, 151, 0.9) 0%, rgba(64, 64, 64, 0.9) 100%);
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.95) 0%, rgba(86, 86, 86, 0.9) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#590f87', endColorstr='#ff0076',GradientType=1 );
 }
 
@@ -2041,6 +2041,10 @@ blockquote cite:after {
   .card-45 {
     padding: 30px 20px;
   }
+}
+
+@media only screen and (min-width: 359px) {
+  .d-md-flex{display:flex!important}
 }
 
 .product-wrapper {
@@ -5053,7 +5057,7 @@ textarea.form-control {
 
 .banner-content h1 {
   font-size: 72px;
-  margin-bottom: 42px;
+  margin-bottom: 15px;
   letter-spacing: -3px;
 }
 

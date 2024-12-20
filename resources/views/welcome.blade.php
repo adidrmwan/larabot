@@ -30,7 +30,7 @@
     <link href="{{ URL::asset('assets/css/custom.css') }}" rel="stylesheet">
 </head>
 
-<body data-bg-img="assets/img/bg/page-bg.jpg" style="margin: 0; height: 100%; overflow: hidden">
+<body data-bg-img="assets/img/bg/page-bg.jpg" style="margin: 0; height: 100%;">
 
     <header class="header">
         <div class="header-main love-sticky fixed-top">
@@ -48,8 +48,7 @@
                             </div>
                         </div>
 
-                        <div
-                            class="col-lg-8 col-md-6 col-sm-3 col-6 d-flex align-items-center justify-content-end position-static">
+                        <div class="col-lg-8 col-md-6 col-sm-3 col-6 d-flex align-items-center justify-content-end position-static">
                             <div class="nav-wrapper d-flex align-items-center">
                                 <div class="nav-wrap-inner">
                                     <ul class="nav">
@@ -62,15 +61,20 @@
                                         <li>
                                             <a href="/subscription">subscription</a>
                                         </li>
-                                        <li>
-                                            <a href="#">contract</a>
-                                        </li>
-                                        <li><a href="/app">app</a></li>
+                                        
                                     </ul>
+                                    
                                 </div>
 
                             </div>
+                            <div class="d-none d-md-flex align-items-center ms-4">
+                                <a href="/app" class="btn">
+                                    APP
+                                </a>
+                            </div>
                         </div>
+
+                        
                     </div>
                 </div>
             </div>
@@ -83,30 +87,25 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="banner-content text-white mb-5 mb-lg-0">
-                        <h5>you won’t believe your eyes</h5>
-                        <h1>Digital Collection & Sell on <span>WALLET</span></h1>
-                        <p>KORA, we’re excited about brand new type of digital good called a non fungible tokens We’re
-                            proud to be the first and largest marketplace for NFTs.</p>
+                        <h5>A Fully Open-Sourced Trained Backroom Model</h5>
+                        <h1>KORA</h1>
+                        <p>Pioneering advanced AI experimentation with cutting-edge frameworks and scalable architecture.</p>
                         <ul class="list-info text-white">
                             <li>
-                                <h4><span class="counter">3</span>k<span class="c1">+</span></h4>
-                                <h6>Artwork</h6>
+                                <h4><span class="counter">500</span>GB<span class="c1">+</span></h4>
+                                <h6>Parameters</h6>
                             </li>
                             <li>
-                                <h4><span class="counter">9</span>k<span class="c1">+</span></h4>
-                                <h6>Auction</h6>
+                                <h4><span class="counter">100</span><span class="c1">+</span></h4>
+                                <h6>Nodes</h6>
                             </li>
                             <li>
-                                <h4><span class="counter">6</span>k<span class="c1">+</span></h4>
-                                <h6>Artist</h6>
+                                <h4><span class="counter">10</span>PB<span class="c1">+</span></h4>
+                                <h6>Network Data</h6>
                             </li>
                         </ul>
                         <div class="button-group flex-column flex-sm-row align-items-start align-items-sm-center">
-                            <a href="#whitepaper" class="btn mb-3 mb-sm-0" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                                <img src="assets/img/icons/discover.svg" alt="" class="svg">
-                                DOCS
-                            </a>
-                            <a href="/create" class="btn btn-border">
+                            <a href="/create" class="btn mb-3 mb-sm-0">
                                 <img src="assets/img/icons/bid.svg" alt="" class="svg">
                                 CREATE
                             </a>
@@ -121,125 +120,66 @@
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                         <div class="modal-body">
-                        <h1>KORA</h1>
+                        <h2>** KORA **</h2>
 
-<p>
-$:Sentinel: Autonomous AI Agent for Solana Node Construction and Validation:$|
+                        <p>** KORA: A Fully Open-Sourced Trained Backroom Model **</p>
+                        <h5>** Abstract **</h5>
+                        <p>KORA is an open-source AI platform built upon a trained backroom model. It is designed for experimentation and innovation, enabling users to explore narrative generation, train custom AI models, and design personalized AI agents. By combining advanced frameworks, transparency, and adaptability, KORA empowers users to redefine AI-driven processes and push the boundaries of what AI can achieve.</p>
+                        <h5>** Core Features **</h5>
+                        <p>**1. Backroom-Trained Model** </p>
+                        <p>At the heart of KORA lies its trained backroom model, characterized by:</p>
+                        <p>- A focus on unconventional data patterns and experimental outputs.</p>
+                        <p>- The ability to generate unique and adaptive behaviors.</p>
+                        <p>- Support for experimental use cases across storytelling, gaming, and research.</p>
 
-                        Abstract
-                        Sentinel is an advanced AI platform engineered to autonomously design, deploy, and optimize Solana validator nodes. By leveraging cutting-edge machine learning, neural architecture search, and decentralized coordination, Sentinel transforms the traditionally complex and resource-intensive process of node creation into an intelligent, automated workflow. Sentinel not only builds robust, high-performance nodes but also ensures their continuous operation and alignment with Solana’s fast-paced, high-throughput blockchain ecosystem. The system empowers users to deploy efficient validator nodes, dynamically adapt to network conditions, and participate actively in Solana’s proof-of-stake consensus mechanism, enhancing decentralization and network security.
+                        <p>**2. Open-Source Flexibility** </p>
+                        <p>KORA is fully open-sourced, offering:</p>
+                        <p>- Transparency in code and operations.</p>
+                        <p>- The ability to customize models for specific tasks and domains.</p>
+                        <p>- A collaborative platform for developers and researchers to innovate together.</p>
 
-Core Innovations
-1. Autonomous Node Construction
-Sentinel automates the process of building Solana validator nodes:
+                        <p> **3. Custom AI Agent Design**</p>
+                        <p>KORA allows users to:</p>
+                        <p>- Build AI agents tailored for experimental or task-specific use cases.</p>
+                        <p>- Deploy agents in dynamic environments like games, simulations, or research scenarios.</p>
+                        <p>- Adapt agent behavior through unique data integration.</p>
 
-• Installs and configures Solana software.
+                        <p>**4. Experimental Narrative Engine**</p>
+                        <p>The narrative generation engine supports:</p>
+                        <p>- Exploration of non-linear and unconventional plot structures.</p>
+                        <p>- Data-driven creation of immersive worlds.</p>
+                        <p>- Experimental storytelling techniques for novel applications.</p>
 
-• Optimizes hardware performance for high transaction throughput and minimal latency.
+                        <h5>**Technical Framework and Architecture**</h5>
+                        <p>**1. Core Technologies**</p>
+                        <p>KORA is built using cutting-edge machine learning and AI frameworks, including:</p>
+                        <p>- **Transformers and GPT Architectures:** Core to KORA’s natural language processing, enabling advanced contextual understanding and narrative generation.</p>
+                        <p>- **PyTorch:** Providing a flexible, modular foundation for model development, fine-tuning, and scalability.</p>
+                        <p>- **Hugging Face Integration:** Facilitating seamless customization of pre-trained models and access to an extensive library of AI tools.</p>
+                        <p>- **Distributed Training:** Allowing efficient handling of large datasets through parallel processing, ensuring faster and scalable model training.</p>
 
-• Ensures compliance with Solana’s network requirements, such as hardware specs and RPC (Remote Procedure Call) configurations.
+                        <p>**2. Training Pipeline**</p>
+                        <p>KORA’s modular training pipeline includes:</p>
+                        <p>- **Data Preprocessing:** Tools for cleaning, organizing, and structuring unconventional and experimental datasets.</p>
+                        <p>- **Fine-Tuning:** Customizable workflows for adapting the backroom model to niche applications or unique datasets.</p>
+                        <p>- **Evaluation Metrics:** Built-in metrics for assessing model performance in specific tasks, ensuring adaptability and robustness.</p>
 
-2. Validator Optimization
-The AI dynamically optimizes node performance based on:
+                        <p>**3. Adaptive Model Design**</p>
+                        <p>The backroom model emphasizes:</p>
+                        <p>- **Dynamic Learning:** Continuous adaptability based on user-provided datasets and feedback loops.</p>
+                        <p>- **Context-Aware Outputs:** Enhanced understanding of nuanced data inputs, generating more meaningful and coherent results.</p>
+                        <p>- **Multi-Domain Flexibility:** Capable of transitioning seamlessly between applications, such as storytelling, gaming, and domain-specific research.</p>
 
-• Real-time network conditions, such as transaction volume and block finality rates.
+                        <p>### **4. Scalability and Efficiency**</p>
+                        <p>- **Cloud Integration:** Optimized for deployment on cloud platforms, enabling scalable use for both individual and enterprise-level projects.</p>
+                        <p>- **Hardware Flexibility:** Compatible with both GPU and CPU architectures, ensuring accessibility for users with varying computational resources.</p>
+                        <p>- **Resource Optimization:** Efficient utilization of memory and compute power for handling large-scale training tasks without compromising performance.</p>
 
-• Stake weight distribution to maximize validator rewards and minimize skipped slots.
+                        <h5>**Conclusion**</h5>
+                        <p style="text-align: justify;">KORA is more than a platform—it’s a fully open-sourced, trained backroom model that empowers users to explore, experiment, and innovate. Built on advanced frameworks and modular architectures, KORA is designed to adapt to a wide range of experimental and practical applications, making it a versatile tool for developers and researchers alike.</p>
 
-• Energy efficiency to reduce operational costs while maintaining performance.
+                        <h5>**Train KORA. Experiment with innovation. Design your agent. Shape the future.**</h5>
 
-3. AI-Driven Maintenance
-Sentinel agents proactively manage validator health:
-
-• Adaptive Parameter Tuning: Algorithms iteratively calibrate hardware for peak energy-to-hash performance.
-
-• Spatial Gradient Descent: Dynamically minimizes inter-node latency by optimizing network graph geometries.
-
-• Resource Scheduling Predictors: Neural-based schedulers forecast resource bottlenecks and preemptively resolve them.
-
-4. Decentralized Coordination
-Sentinel enables decentralized coordination between multiple validator nodes:
-
-• Facilitates communication between nodes to share workload and improve reliability.
-
-• Encourages validator diversity by intelligently selecting geographical locations and hardware configurations.
-
-Technical Architecture
-1. AI Framework
-Sentinel’s AI is built on three core pillars:
-
-• Neural Architecture Search (NAS): Optimizes validator node configurations for peak performance.
-
-• Reinforcement Learning Models: Continuously improve staking strategies and node operation efficiency.
-
-• Predictive Maintenance Engines: Forecast hardware or network issues to preempt downtime.
-
-2. Node Construction Pipeline
-Sentinel’s pipeline automates every step of node deployment:
-
-• Environment Setup: Installs Solana software, dependencies, and security configurations.
-
-• Resource Allocation: Optimally assigns hardware (CPU, RAM, and storage) to meet Solana’s high-throughput demands.
-
-• Validator Activation: Initiates the node as a fully operational validator, registered with the Solana network.
-
-3. Continuous Optimization
-Once deployed, Sentinel agents:
-
-• Monitor performance metrics like vote credits, skipped slots, and transaction confirmations.
-
-• Dynamically adjust node settings to adapt to network congestion or shifts in validator competition.
-
-• Implement staking strategies to maximize rewards while maintaining low delegation fees.
-
-4. Blockchain Synchronization
-Sentinel ensures:
-
-• Rapid ledger synchronization for minimal downtime during updates or restarts.
-
-• Accurate vote submission to maintain high leader slot success rates.
-
-• Efficient RPC management for servicing client requests without delays.
-
-Performance Benchmarks
-Initial testing of Sentinel-powered validator nodes demonstrated:
-
-• 99.9% Uptime: Ensuring uninterrupted participation in consensus.
-
-• 30% Higher Rewards: Achieved by optimizing stake distribution and minimizing skipped slots.
-
-• 25% Energy Savings: Leveraging AI-driven resource management for cost-effective operation.
-
-Security Protocols
-Sentinel prioritizes the security of Solana validator nodes through:
-
-• Automated Security Updates: Ensures all nodes run the latest, secure software versions.
-
-• Encrypted Communication: Safeguards data exchanges between nodes and the Solana network.
-
-• Multi-Layered Threat Detection: AI-powered anomaly detection to identify and mitigate potential attacks.
-
-Open-Source Collaboration
-Sentinel is designed as an open-source project, allowing developers and validators to:
-
-• Extend functionality by integrating custom optimization algorithms.
-
-• Improve hardware compatibility for diverse validator setups.
-
-• Contribute to decentralized governance through collaborative development.
-
-Applications
-Sentinel’s automated Solana node deployment is ideal for:
-
-• Individual Validators: Simplifies entry for new participants in Solana’s ecosystem.
-
-• Staking Services: Enables professional-grade node management at scale.
-
-• Decentralized Networks: Strengthens Solana’s decentralization by facilitating more diverse validator participation.
-
-Conclusion
-Sentinel redefines Solana validator operations by merging AI-driven intelligence with automated node deployment and optimization. It empowers users to become validators effortlessly while ensuring network integrity, decentralization, and profitability. As Solana’s ecosystem grows, Sentinel will remain at the forefront, advancing node technology to support a scalable, secure blockchain future.
-</p>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -252,8 +192,21 @@ Sentinel redefines Solana validator operations by merging AI-driven intelligence
                     <div class="banner-img move-img">
 
                         <img src="assets/img/media/banner-img.png" class="ms-xl-4" alt="">
+                        <div class="banner-img-content">
+                            <h2 style="font-size:32px;">Try our Trained Backroom Model!</h2>
+
+                            <div class="button-group">
+                                <a href="#" class="btn-circle love-react mr-10"></a>
+
+                                <div class="dropdown mr-10">
+
+                                <a href="/app" class="btn btn-sm">
+                                    APP
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <!-- End Banner IMG -->
+                    
                 </div>
             </div>
         </div>
