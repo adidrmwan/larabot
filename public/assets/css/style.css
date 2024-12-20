@@ -5017,14 +5017,14 @@ textarea.form-control {
    03.6: Banner
    ********************* */
 .banner {
-  padding: 260px 0 0px;
+  padding: 100px 0 0px;
   /* position: relative; */
   z-index: 1;
 }
 
 @media only screen and (max-width: 991px) {
   .banner {
-    padding-top: 180px;
+    padding-top: 100px;
   }
 }
 
