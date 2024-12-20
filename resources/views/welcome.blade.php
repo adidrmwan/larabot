@@ -87,7 +87,7 @@
 
                 <div class="col-lg-6" >
                     <div class="banner-img move-img">
-                        <img src="assets/img/media/banner-img.png" class="ms-xl-4" alt="logo" style="width:120%; margin-top:20%;">
+                        <img src="assets/img/media/banner-img.png" class="ms-xl-4" alt="logo" style="width:115%; margin-top:20%;">
                     </div>
                     
                 </div>
@@ -132,6 +132,21 @@
             </div>
         </div>
     </div>
+    
+    <footer class="footer" style="position: fixed; bottom: 0; right: 0; width: 100%; background-color: #101010">
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="text-center" >
+                            <h5 style="color: #fff; ">CA : number</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-scrollable">
             <div class="modal-content">
@@ -207,6 +222,8 @@
             </div>
         </div>
     </div>
+
+
     
 
     <script type="text/javascript" src="{{ URL::asset('assets/js/jquery.min.js') }}"></script>
