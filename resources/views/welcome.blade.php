@@ -115,7 +115,6 @@
                                 <img src="assets/img/icons/create-icon.svg" alt="" class="svg">
                                 CREATE
                             </a>
-                        
                         </div>
                         <h3 style="color: #fff; margin-top:3%">Try our Trained Backroom Model!</h3>
                         <div class="button-group" style="margin-top:3%;">
