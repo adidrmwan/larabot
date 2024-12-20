@@ -190,8 +190,7 @@
 
                 <div class="col-lg-6">
                     <div class="banner-img move-img">
-
-                        <img src="assets/img/media/banner-img.png" class="ms-xl-4" alt="">
+                        <img src="assets/img/media/banner-img.png" class="ms-xl-4" alt="logo" style="margin-top: 80px;">
                         <div class="banner-img-content">
                             <h2 style="font-size:32px;">Try our Trained Backroom Model!</h2>
 
