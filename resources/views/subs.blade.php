@@ -163,7 +163,7 @@
                         <div class="product-content">
                             <div class="product-top">
                                 <h3 style="padding-bottom: 15px;">Enterprise Plan - Limitless</h3>
-                                <div style="padding-bottom: 15px;">
+                                <div style="padding-bottom: 9px;">
                                   <h5> Features : </h5>
                                   <p>
                                   • Unlimited AI agent creation with full customization.
