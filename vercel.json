@@ -1,13 +1,13 @@
 {
     "version": 2,
-      "framework": null,
+    "framework": null,
     "functions": {
         "api/assets.php": { "runtime": "vercel-php@0.7.3" },
         "api/index.php": { "runtime": "vercel-php@0.7.3" }
     },
     "routes": [
         { 
-            "src": "/(css|js)/(.*)$",
+            "src": "/assets/(.*)$",
             "dest": "/api/assets.php?type=$1&file=$2"
         },
         {
@@ -31,5 +31,6 @@
         "CACHE_DRIVER": "array",
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie"
-    }
+    },
+    "buildCommand": "vercel ."
 }
