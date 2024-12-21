@@ -1,5 +1,5 @@
 
-<!DOCTYPE html><!-- Last Published: Thu Dec 19 2024 04:28:43 GMT+0000 (Coordinated Universal Time) --><html data-wf-domain="korastaging.webflow.io" data-wf-page="67639d541630f412606fa08a" data-wf-site="674302738dcd78ae56dd6386" lang="en"><head><meta charset="utf-8"/><title>add to the backrooms</title><meta content="add to the backrooms" property="og:title"/><meta content="add to the backrooms" property="twitter:title"/><meta content="width=device-width, initial-scale=1" name="viewport"/><link href="https://cdn.prod.website-files.com/674302738dcd78ae56dd6386/css/korastaging.webflow.4efd39352.css" rel="stylesheet" type="text/css"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous"/><script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script><script type="text/javascript">WebFont.load({  google: {    families: ["Varela:400","Archivo:100,200,300,regular,500,600,700,800","Inter:100,200,300,regular,500,600,700,800,900"]  }});</script><script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script><link href="https://cdn.prod.website-files.com/674302738dcd78ae56dd6386/676275de69ca12cf4827ec61_32.png" rel="shortcut icon" type="image/x-icon"/><link href="https://cdn.prod.website-files.com/674302738dcd78ae56dd6386/676275e25873b2dbb8eb250a_256.png" rel="apple-touch-icon"/><!-- Please keep this css code to improve the font quality-->
+<!DOCTYPE html><!-- Last Published: Thu Dec 19 2024 04:28:43 GMT+0000 (Coordinated Universal Time) --><html data-wf-domain="korastaging.webflow.io" data-wf-page="67639d541630f412606fa08a" data-wf-site="674302738dcd78ae56dd6386" lang="en"><head><meta charset="utf-8"/><title>KORA | add to the backrooms</title><meta content="add to the backrooms" property="og:title"/><meta content="add to the backrooms" property="twitter:title"/><meta content="width=device-width, initial-scale=1" name="viewport"/><link href="https://cdn.prod.website-files.com/674302738dcd78ae56dd6386/css/korastaging.webflow.4efd39352.css" rel="stylesheet" type="text/css"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous"/><script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script><script type="text/javascript">WebFont.load({  google: {    families: ["Varela:400","Archivo:100,200,300,regular,500,600,700,800","Inter:100,200,300,regular,500,600,700,800,900"]  }});</script><script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script><link href="https://cdn.prod.website-files.com/674302738dcd78ae56dd6386/676275de69ca12cf4827ec61_32.png" rel="shortcut icon" type="image/x-icon"/><link href="https://cdn.prod.website-files.com/674302738dcd78ae56dd6386/676275e25873b2dbb8eb250a_256.png" rel="apple-touch-icon"/><!-- Please keep this css code to improve the font quality-->
 <style>
   * {
   -webkit-font-smoothing: antialiased;
@@ -8,36 +8,40 @@
 </style>
 
 <!-- You can remove this -->
-<meta name="facebook-domain-verification" content="mlk59ybu44651lzcbhhxjfl8vfae8q" /></head><body class="body-6"><div class="div-block-2"><a href="/" class="link-block-44 w-inline-block"><div class="text-block-124">KORA</div></a></div><div class="code-embed-9 w-embed w-script"><!DOCTYPE html>
+<meta name="facebook-domain-verification" content="mlk59ybu44651lzcbhhxjfl8vfae8q" /></head><body class="body-6"><div class="div-block-2"><a href="/" class="link-block-44 w-inline-block"><div class="text-block-124" style="color: #fff">K O R A</div></a></div><div class="code-embed-9 w-embed w-script"><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@500;600;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
-            color: #ffffff; /* White text color */
+            color: #ffffff;
             margin: 0;
             padding: 0;
             display: flex;
             justify-content: center;
             align-items: center;
             overflow: scroll;
+            background-color: #000;
+            font-family: "Lexend", sans-serif;
         }
 
         .container {
             width: 80%;
             max-width: 800px;
-            background-color: #dde8ff; /* Darker background for the form area */
+            background-color: #1c1c1c; /* Darker background for the form area */
             padding: 20px;
             height: auto;
             flex-direction: column;
             border-radius: 10px;
             box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.2); /* White glow */
+            color: #fff
         }
 
         h2 {
             text-align: center;
-            color: #00174a; /* White text */
+            color: #fff; /* White text */
             margin-bottom: 20px;
             font-size: 24px;
         }
@@ -46,7 +50,7 @@
             display: block;
             margin-bottom: 8px;
             font-size: 16px;
-            color: #00174a;
+            color: #fff;
         }
 
         /* Common class for all inputs */
@@ -54,7 +58,7 @@
             width: 100%; /* Ensures all fields take full width of their container */
             padding: 10px;
             margin-bottom: 15px;
-            background-color: #00174a;
+            background-color: #505050;
             color: #ffffff; /* White text */
             border: 1px solid #ffffff; /* White border */
             border-radius: 5px;
@@ -76,10 +80,13 @@
 
         button {
             padding: 10px 20px;
-            background-color: #abc4fa; /* Darker background for the form area */
-            color: #00174a; /* Black text on white background */
+            background: #590f87;
+            background: -o-linear-gradient(45deg, #590f87 0%, #ff0076 50%, #590f87 100%);
+            background: linear-gradient(45deg, #590f87 0%, #ff0076 50%, #590f87 100%);
+            color: #fff;
+            text-transform: uppercase;
             border: none;
-            border-radius: 5px;
+            border-radius: 50px;
             font-size: 16px;
             cursor: pointer;
             width: 100%; /* Button takes the same width as inputs */
@@ -127,7 +134,7 @@
             <textarea id="body" name="body" class="form-input" rows="4" required></textarea><br><br>
 
             <label for="datePosted">Date Posted:</label>
-            <input type="date" id="datePosted" name="datePosted" class="form-input"><br><br>
+            <input type="date" id="datePosted" name="datePosted" class="form-input" style="color:#fff"><br><br>
 
             <button type="submit">Submit</button>
         </form>

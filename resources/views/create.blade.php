@@ -37,17 +37,17 @@
             <div class="container">
                 <div class="header-inner position-relative">
                     <div class="row align-items-center">
-                        <div class="col-lg-4 col-md-6 col-sm-9 col-6">
+                        <div class="col-lg-6 col-md-6 col-sm-9 col-6">
                             <div class="d-flex align-items-center">
-                                <div class="logo">
-                                    <a href="/">
-                                    <h3 style="color: #fff">K O R A</h3>
-                                    </a>
-                                </div>
+                                <ul class="nav">
+                                    <li>
+                                        <a href="/" style="font-size: 30px"><b>K O R A</b></a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
 
-                        <div class="col-lg-8 col-md-6 col-sm-3 col-6 d-flex align-items-center justify-content-end position-static">
+                        <div class="col-lg-6 col-md-6 col-sm-3 col-6 d-flex align-items-center justify-content-end position-static">
                             <div class="nav-wrapper d-flex align-items-center">
                                 <div class="nav-wrap-inner">
                                     <ul class="nav">
@@ -84,8 +84,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <form class="upload-form text-white">
-
+                    <form class="upload-form text-white" id="my-form">
                         <div class="card" style="margin-top: 50px;">
                             <div class="card-body">
                                 <div class="upload-info">
@@ -93,7 +92,7 @@
                                     <h3>Create New Agent</h3>
                                     <div class="form-group">
                                         <label for="name">AI Agent Name</label>
-                                        <input type="text" class="form-control" id="name" placeholder="Type your agent name">
+                                        <input type="text" class="form-control" id="name" placeholder="Type your agent name" required>
                                     </div>
                                     
                                     <div class="form-group">
@@ -101,31 +100,31 @@
                                             <label for="description" class="col-md-5">Description</label>
                                         </div>
                                         <textarea id="description" class="form-control"
-                                            placeholder="Provide a detailed description of your agent"></textarea>
+                                            placeholder="Provide a detailed description of your agent" required></textarea>
                                     </div>
                                     <div class="form-group">
                                         <label for="name">Personality</label>
-                                        <input type="text" class="form-control" id="personality" placeholder="Type the personality">
+                                        <input type="text" class="form-control" id="personality" placeholder="Type the personality" required>
                                     </div>
                                     <div class="form-group">
                                         <label for="name">Lore</label>
-                                        <input type="text" class="form-control" id="lore" placeholder="Type the lore ">
+                                        <input type="text" class="form-control" id="lore" placeholder="Type the lore " required>
                                     </div>
                                     <div class="form-group">
                                         <label for="name">Style</label>
-                                        <input type="text" class="form-control" id="style" placeholder="Type the style ">
+                                        <input type="text" class="form-control" id="style" placeholder="Type the style " required>
                                     </div>
                                     <div class="form-group">
                                         <label for="name">Adjectives</label>
-                                        <input type="text" class="form-control" id="adjectives" placeholder="Type the adjectives ">
+                                        <input type="text" class="form-control" id="adjectives" placeholder="Type the adjectives " required>
                                     </div>
                                     <div class="form-group">
                                         <label for="name">Knowledge</label>
-                                        <input type="text" class="form-control" id="knowledge" placeholder="Type the knowledge ">
+                                        <input type="text" class="form-control" id="knowledge" placeholder="Type the knowledge " required>
                                     </div>
 
                                     <div class="form-group d-flex justify-content-end pt-2 mb-0">
-                                        <a data-bs-toggle="modal" data-bs-target="#submitAgent"><button class="btn"><img src="assets/img/icons/btn-save.svg" alt="" class="svg"> Create Now</button></a>
+                                        <button class="btn" type="submit" id="submit-btn"><img src="assets/img/icons/btn-save.svg" alt="" class="svg"> Create Now</button>
                                     </div>
                                 </div>
                             </div>
@@ -143,65 +142,84 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
             <div class="modal-body">
-            <h2>** KORA **</h2>
+            <h2>KORA</h2>
 
-            <p>** KORA: A Fully Open-Sourced Trained Backroom Model **</p>
-            <h5>** Abstract **</h5>
-            <p>KORA is an open-source AI platform built upon a trained backroom model. It is designed for experimentation and innovation, enabling users to explore narrative generation, train custom AI models, and design personalized AI agents. By combining advanced frameworks, transparency, and adaptability, KORA empowers users to redefine AI-driven processes and push the boundaries of what AI can achieve.</p>
-            <h5>** Core Features **</h5>
-            <p>**1. Backroom-Trained Model** </p>
-            <p>At the heart of KORA lies its trained backroom model, characterized by:</p>
-            <p>- A focus on unconventional data patterns and experimental outputs.</p>
-            <p>- The ability to generate unique and adaptive behaviors.</p>
-            <p>- Support for experimental use cases across storytelling, gaming, and research.</p>
+            <p>KORA: A Fully Open-Sourced Trained Backroom Model </p>
+            <h5>Abstract</h5>
+            <p style="text-align:justify;">KORA is an open-source AI platform built upon a trained backroom model. It is designed for experimentation and innovation, enabling users to explore narrative generation, train custom AI models, and design personalized AI agents. By combining advanced frameworks, transparency, and adaptability, KORA empowers users to redefine AI-driven processes and push the boundaries of what AI can achieve.</p>
+            <h5> Core Features </h5>
+            <p>Backroom-Trained Model
+            <br>
+            A focus on unconventional data patterns and experimental outputs.<br>
+            Generates unique and adaptive behaviors.<br>
+            Supports experimental use cases across storytelling, gaming, and research.<br>
 
-            <p>**2. Open-Source Flexibility** </p>
-            <p>KORA is fully open-sourced, offering:</p>
-            <p>- Transparency in code and operations.</p>
-            <p>- The ability to customize models for specific tasks and domains.</p>
-            <p>- A collaborative platform for developers and researchers to innovate together.</p>
+            Open-Source Flexibility<br>
 
-            <p> **3. Custom AI Agent Design**</p>
-            <p>KORA allows users to:</p>
-            <p>- Build AI agents tailored for experimental or task-specific use cases.</p>
-            <p>- Deploy agents in dynamic environments like games, simulations, or research scenarios.</p>
-            <p>- Adapt agent behavior through unique data integration.</p>
+            Transparent code and operations.<br>
 
-            <p>**4. Experimental Narrative Engine**</p>
-            <p>The narrative generation engine supports:</p>
-            <p>- Exploration of non-linear and unconventional plot structures.</p>
-            <p>- Data-driven creation of immersive worlds.</p>
-            <p>- Experimental storytelling techniques for novel applications.</p>
+            Customizable models for specific tasks and domains.<br>
 
-            <h5>**Technical Framework and Architecture**</h5>
-            <p>**1. Core Technologies**</p>
-            <p>KORA is built using cutting-edge machine learning and AI frameworks, including:</p>
-            <p>- **Transformers and GPT Architectures:** Core to KORA’s natural language processing, enabling advanced contextual understanding and narrative generation.</p>
-            <p>- **PyTorch:** Providing a flexible, modular foundation for model development, fine-tuning, and scalability.</p>
-            <p>- **Hugging Face Integration:** Facilitating seamless customization of pre-trained models and access to an extensive library of AI tools.</p>
-            <p>- **Distributed Training:** Allowing efficient handling of large datasets through parallel processing, ensuring faster and scalable model training.</p>
+            A collaborative platform for innovation.<br>
 
-            <p>**2. Training Pipeline**</p>
-            <p>KORA’s modular training pipeline includes:</p>
-            <p>- **Data Preprocessing:** Tools for cleaning, organizing, and structuring unconventional and experimental datasets.</p>
-            <p>- **Fine-Tuning:** Customizable workflows for adapting the backroom model to niche applications or unique datasets.</p>
-            <p>- **Evaluation Metrics:** Built-in metrics for assessing model performance in specific tasks, ensuring adaptability and robustness.</p>
+            Custom AI Agent Design<br>
 
-            <p>**3. Adaptive Model Design**</p>
-            <p>The backroom model emphasizes:</p>
-            <p>- **Dynamic Learning:** Continuous adaptability based on user-provided datasets and feedback loops.</p>
-            <p>- **Context-Aware Outputs:** Enhanced understanding of nuanced data inputs, generating more meaningful and coherent results.</p>
-            <p>- **Multi-Domain Flexibility:** Capable of transitioning seamlessly between applications, such as storytelling, gaming, and domain-specific research.</p>
+            Build AI agents for experimental or task-specific use cases.<br>
 
-            <p>### **4. Scalability and Efficiency**</p>
-            <p>- **Cloud Integration:** Optimized for deployment on cloud platforms, enabling scalable use for both individual and enterprise-level projects.</p>
-            <p>- **Hardware Flexibility:** Compatible with both GPU and CPU architectures, ensuring accessibility for users with varying computational resources.</p>
-            <p>- **Resource Optimization:** Efficient utilization of memory and compute power for handling large-scale training tasks without compromising performance.</p>
+            Deploy agents in dynamic environments like games and simulations.<br>
 
-            <h5>**Conclusion**</h5>
-            <p style="text-align: justify;">KORA is more than a platform—it’s a fully open-sourced, trained backroom model that empowers users to explore, experiment, and innovate. Built on advanced frameworks and modular architectures, KORA is designed to adapt to a wide range of experimental and practical applications, making it a versatile tool for developers and researchers alike.</p>
+            Adapt agent behavior through unique data integration.
+            <br>
+            Experimental Narrative Engine<br>
 
-            <h5>**Train KORA. Experiment with innovation. Design your agent. Shape the future.**</h5>
+            Non-linear and unconventional plot structures.<br>
+
+            Data-driven immersive world-building.<br>
+
+            Supports experimental storytelling techniques.<br>
+            
+            </p>
+            <h5>Technical Framework and Architecture</h5>
+            <p>
+                Core Technologies <br>
+
+                Transformers and GPT Architectures for natural language processing. <br>
+
+                PyTorch for modular and scalable model training.<br>
+
+                Hugging Face Integration for pre-trained model customization.<br>
+
+                Distributed Training for large datasets.<br>
+
+                Training Pipeline<br>
+
+                Data Preprocessing: Tools for structuring unconventional datasets.<br>
+
+                Fine-Tuning: Workflows for niche applications.<br>
+
+                Evaluation Metrics: Assess model performance.<br>
+
+                Adaptive Model Design<br>
+
+                Dynamic Learning: Continuous adaptability with user datasets.<br>
+
+                Context-Aware Outputs: Nuanced data input understanding.<br>
+
+                Multi-Domain Flexibility: Seamless transitions across use cases.<br>
+
+                Scalability and Efficiency<br>
+
+                Cloud Integration: Optimized for scalable deployment.<br>
+
+                Hardware Flexibility: GPU and CPU compatibility.<br>
+
+                Resource Optimization: Efficient handling of training tasks.<br>
+            </p>
+
+            <h5>Conclusion</h5>
+            <p style="text-align: justify;">KORA is more than a platform—it’s a fully open-sourced, trained backroom model that empowers users to explore, experiment, and innovate. Built on advanced frameworks and modular architectures, KORA adapts to a wide range of experimental and practical applications, making it a versatile tool for developers and researchers alike.</p>
+
+            <h5>Train KORA. Experiment with innovation. Design your agent. Shape the future.</h5>
 
             </div>
             <div class="modal-footer">
@@ -229,7 +247,16 @@
     </div>
     
     <script type="text/javascript" src="{{ URL::asset('assets/js/jquery.min.js') }}"></script>
+    <script type="text/javascript">    
+        $(document).ready(function() {
+            $('#my-form').submit(function (e) {
+                e.preventDefault();
+                $('#submitAgent').modal('show');
+            });
+        });
+    </script>
     <script type="text/javascript" src="{{ URL::asset('assets/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
     <script type="text/javascript" src="{{ URL::asset('assets/plugins/particles/particles.min.js') }}"></script>
     <script type="text/javascript" src="{{ URL::asset('assets/js/menu.min.js') }}"></script>
 

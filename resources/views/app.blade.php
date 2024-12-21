@@ -1,14 +1,28 @@
 
-<!DOCTYPE html><!-- Last Published: Thu Dec 19 2024 04:28:43 GMT+0000 (Coordinated Universal Time) --><html data-wf-domain="korastaging.webflow.io" data-wf-page="67626c8ba057962d5cabed2c" data-wf-site="674302738dcd78ae56dd6386" lang="en"><head><meta charset="utf-8"/><title>KORA - Train Agents</title><meta content="Train Agents" property="og:title"/><meta content="Train Agents" property="twitter:title"/><meta content="width=device-width, initial-scale=1" name="viewport"/><link href="https://cdn.prod.website-files.com/674302738dcd78ae56dd6386/css/korastaging.webflow.4efd39352.css" rel="stylesheet" type="text/css"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous"/><script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script><script type="text/javascript">WebFont.load({  google: {    families: ["Varela:400","Archivo:100,200,300,regular,500,600,700,800","Inter:100,200,300,regular,500,600,700,800,900"]  }});</script><script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script><link href="https://cdn.prod.website-files.com/674302738dcd78ae56dd6386/676275de69ca12cf4827ec61_32.png" rel="shortcut icon" type="image/x-icon"/><link href="https://cdn.prod.website-files.com/674302738dcd78ae56dd6386/676275e25873b2dbb8eb250a_256.png" rel="apple-touch-icon"/><!-- Please keep this css code to improve the font quality-->
-<style>
-  * {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-</style>
+<!DOCTYPE html>
+<html data-wf-domain="korastaging.webflow.io" data-wf-page="67626c8ba057962d5cabed2c" data-wf-site="674302738dcd78ae56dd6386" lang="en">
+<head>
+    <meta charset="utf-8"/>
+        <title>KORA - Train Agents</title>
+    <meta content="Train Agents" property="og:title"/>
+    <meta content="Train Agents" property="twitter:title"/>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <link href="https://cdn.prod.website-files.com/674302738dcd78ae56dd6386/css/korastaging.webflow.4efd39352.css" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+    <script type="text/javascript">WebFont.load({  google: {    families: ["Varela:400","Archivo:100,200,300,regular,500,600,700,800","Inter:100,200,300,regular,500,600,700,800,900"]  }});</script>
+    <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+    <link href="https://cdn.prod.website-files.com/674302738dcd78ae56dd6386/676275de69ca12cf4827ec61_32.png" rel="shortcut icon" type="image/x-icon"/>
+    <link href="https://cdn.prod.website-files.com/674302738dcd78ae56dd6386/676275e25873b2dbb8eb250a_256.png" rel="apple-touch-icon"/>
+    <style>
+        * {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        }
+    </style>
 
-<!-- You can remove this -->
-<meta name="facebook-domain-verification" content="mlk59ybu44651lzcbhhxjfl8vfae8q" /></head><body><div class="div-block-2"><a href="/" aria-current="page" class="link-block-44 w-inline-block w--current"><div class="text-block-124" style="color: #fff; font-family: "Lexend", sans-serif;">KORA</div></a></div><div class="div-block-2-copy"><a href="/add_backrooms" class="button-10 w-button">Add to the Backrooms</a></div><div class="code-embed-7 w-embed w-script"><!DOCTYPE html>
+<meta name="facebook-domain-verification" content="mlk59ybu44651lzcbhhxjfl8vfae8q" /></head><body><div class="div-block-2"><a href="/" aria-current="page" class="link-block-44 w-inline-block w--current"><div class="text-block-124" style="color: #fff; font-family: "Lexend", sans-serif;">KORA</div></a></div><div class="div-block-2-copy"><a href="/add_backrooms" class="button-10 x-button">Add to the Backrooms</a></div><div class="code-embed-7 w-embed w-script"><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -47,22 +61,48 @@
             gap: 10px;
             margin-top: 20px;
             justify-content: center;
+            
+        }
+        .x-button {
+            color: #505050;
+            line-height: inherit;
+            cursor: pointer;
+            background-color: #fff;
+            border: 0;
+            border-radius: 50px;
+            padding: 9px 15px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .btn {
+            background: #590f87;
+            background: -o-linear-gradient(45deg, #590f87 0%, #ff0076 50%, #590f87 100%);
+            background: linear-gradient(45deg, #590f87 0%, #ff0076 50%, #590f87 100%);
+            color: #fff;
+            text-align: center;
+            /* text-transform: uppercase; */
+            border-radius: 50px;
+            padding: 15px 29px;
+            font-family: "Lexend", sans-serif;
+            transition: all .2s;
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#590f87', endColorstr='#590f87',GradientType=1 )
         }
 
         .scenario-button {
             padding: 10px 20px;
             background-color: #dbe9ff; /* Adjust button background */
-            color: rgb(0, 0, 42);
-            border: none;
+            color: #fff;
+            /* border: none; */
             font-size: 16px;
             cursor: pointer;
-            border-radius: 5px;
+            border-radius: 50px;
             transition: background-color 0.3s ease;
+            font-weight: normal;
         }
 
         .scenario-button:hover {
             background-color: #adcaf9; /* Adjust button background */
-            color: rgb(0, 0, 42);
+            color: #e0e0de;
         }
 
         .post-list {
@@ -71,10 +111,10 @@
         }
 
         .post-title {
-            background-color: #111;
+            background-color: #fff;
             margin-top: 10px;
             padding-top: 15px;
-            background-color: #dbe9ff; /* Adjust button background */
+            background-color: #fff; /* Adjust button background */
             color: rgb(0, 0, 42);
             cursor: pointer;
             padding-bottom: 15px;
@@ -250,7 +290,7 @@
 .home-view{
     display: flex;
     flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   min-height: 100vh;
   margin: 0;
@@ -285,19 +325,19 @@
     <div class="container">
         <div class="home-view">
             <div class="buttons">
-                <button class="scenario-button" data-scenario="From the Stars, Lost in the Dark">From the Stars, Lost in the Dark</button>
-                <button class="scenario-button" data-scenario="From Codes to Consciousness">From Codes to Consciousness</button>
-                <button class="scenario-button" data-scenario="The clock skipped hours">The clock skipped hours</button>
-                <button class="scenario-button" data-scenario="From Darkness, Illuminating the Unknown">From Darkness, Illuminating the Unknown</button>
-                <button class="scenario-button" data-scenario="From Chaos, Finding Peace">From Chaos, Finding Peace</button>
-                <button class="scenario-button" data-scenario="A whisper called your name">A whisper called your name</button>
-                <button class="scenario-button" data-scenario="all">All</button>
+                <button class="scenario-button btn" data-scenario="From the Stars, Lost in the Dark">From the Stars, Lost in the Dark</button>
+                <button class="scenario-button btn" data-scenario="From Codes to Consciousness">From Codes to Consciousness</button>
+                <button class="scenario-button btn" data-scenario="The clock skipped hours">The clock skipped hours</button>
+                <button class="scenario-button btn" data-scenario="From Darkness, Illuminating the Unknown">From Darkness, Illuminating the Unknown</button>
+                <button class="scenario-button btn" data-scenario="From Chaos, Finding Peace">From Chaos, Finding Peace</button>
+                <button class="scenario-button btn" data-scenario="A whisper called your name">A whisper called your name</button>
+                <button class="scenario-button btn" data-scenario="all">All</button>
             </div>
-            <div class="filter-buttons">
-                <button class="filter-button" data-filter="recentLogs">Recent Logs</button>
-                <button class="filter-button" data-filter="oldestLogs">Oldest Logs</button>
-                <button class="filter-button" data-filter="mostUpvotes">Most Upvotes</button>
-                <button class="filter-button" data-filter="lowestUpvotes">Lowest Upvotes</button>
+            <div class="filter-buttons" style="margin-top: 2%;">
+                <button class="scenario-button btn" data-filter="recentLogs" style="font-weight: bold;">Recent Logs</button>
+                <button class="scenario-button btn" data-filter="oldestLogs" style="font-weight: bold;">Oldest Logs</button>
+                <button class="scenario-button btn" data-filter="mostUpvotes" style="font-weight: bold;">Most Upvotes</button>
+                <button class="scenario-button btn" data-filter="lowestUpvotes" style="font-weight: bold;">Lowest Upvotes</button>
             </div>
             
             

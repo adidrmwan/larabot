@@ -3972,6 +3972,10 @@ textarea.form-control {
   color: var(--title-color);
 }
 
+.header-main.sticky h3 {
+  color: var(--title-color);
+}
+
 .header-main.sticky ul.nav > li.has-sub-item:after {
   color: var(--title-color);
 }
